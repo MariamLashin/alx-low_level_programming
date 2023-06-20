@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- *  main - entry point
+ * main - Entry point
  *
- *  Description: prints the alphabet in lowercase, and then in uppercase
+ * Description: Print the alphabet in lowercase, and then in uppercase
  *
- *  return: 0 (success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
