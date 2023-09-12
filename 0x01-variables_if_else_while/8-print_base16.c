@@ -20,6 +20,6 @@ while (digit2 <= 102)
 	putchar (digit2);
 	digit2++;
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
