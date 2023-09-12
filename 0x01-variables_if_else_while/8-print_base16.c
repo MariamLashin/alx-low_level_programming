@@ -8,19 +8,14 @@
 
 int main(void)
 {
-int	digit1 = 48, digit2 = 97;
-
-while (digit1 <= 57)
+int digit = 48;
+while (digit <= 102)
 {
-	putchar (digit1);
-	digit1++;
-}
-while (digit2 <= 102)
-{
-	putchar (digit2);
-		digit2++;
+	putchar(digit);
+	if (digit == 57)
+	digit += 39;
+	digit++;
 }
 putchar("\n");
 return (0);
 }
-
