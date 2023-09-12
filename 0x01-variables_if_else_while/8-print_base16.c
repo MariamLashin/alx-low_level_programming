@@ -8,8 +8,7 @@
 
 int main(void)
 {
-int	digit1 = 48;
-	digit2 = 97;
+int	digit1 = 48, digit2 = 97;
 
 while (digit1 <= 57)
 {
