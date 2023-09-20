@@ -1,6 +1,7 @@
-#include "MAIN_H"
+#include "main.h"
 
 /**
+ * main - check the code
  * return : nothing
  */
 
