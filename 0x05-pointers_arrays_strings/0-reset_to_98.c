@@ -2,7 +2,7 @@
 
 /**
  * main - check the code
- * description : function that takes a pointer to an int
+ * description : function that takes a pointer n to an int
  * return : nothing
  */
 
