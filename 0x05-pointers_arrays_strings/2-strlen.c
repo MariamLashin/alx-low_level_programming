@@ -4,6 +4,8 @@
 /**
  * _strlen : retuns the lenght of a string
  *
+ * s is a sring parameter input
+ *
  * return the lenght of a string
  */
 
