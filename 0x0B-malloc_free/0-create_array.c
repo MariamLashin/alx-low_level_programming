@@ -3,12 +3,13 @@
 
 
 /**
- * create_array : chars, and initializes it with a specific char.
+ * create_array : creates an array of chars, and initializes it with a specific char.
  * @size : size of array.
  * @c: char to assign.
+ * Descripton : a function that creates an array of chars, and initializes it with a specific char.
  * Return: pointer to array, NULL if fail.
  */
-		
+
 char *create_array(unsigned int size, char c)
 {
 	char *str;
@@ -16,15 +17,14 @@ char *create_array(unsigned int size, char c)
 
 
 	str = malloc(sizeof(char) * size);
-		
-	if (size == 0 || str == NULL)
-		
-		return (NULL);	
 
-		
+	if (size == 0 || str == NULL)
+
+		return (NULL);
+
+
 	for (i = 0; i < size; i++)
 		
 		str[i] = c;
-		
 	return (str);
 }
