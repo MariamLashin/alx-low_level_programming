@@ -3,10 +3,11 @@
 
 
 /**
- * create_array : creates an array of chars, and initializes it with a specific char.
+ * create_array : creates an array of chars.
  * @size : size of array.
  * @c: char to assign.
- * Descripton : a function that creates an array of chars, and initializes it with a specific char.
+ * Descripton : a function that creates an array of chars, 
+ * and initializes it with a specific char.
  * Return: pointer to array, NULL if fail.
  */
 
@@ -24,7 +25,7 @@ char *create_array(unsigned int size, char c)
 
 
 	for (i = 0; i < size; i++)
-		
+
 		str[i] = c;
 	return (str);
 }
