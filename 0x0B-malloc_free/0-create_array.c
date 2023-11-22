@@ -3,11 +3,11 @@
 
 
 /**
+ * Description : a function that creates an array of chars.,
+ * and initializes it with a specific char.
  * create_array : creates an array of chars.
  * @size : size of array.
  * @c: char to assign.
- * Descripton : a function that creates an array of chars, 
- * and initializes it with a specific char.
  * Return: pointer to array, NULL if fail.
  */
 
